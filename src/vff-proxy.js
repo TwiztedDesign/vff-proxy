@@ -70,6 +70,9 @@ export default class VFFProxy {
     equals(data){
         return deepCompare(this._proxy, data);
     }
+    getData(){
+        return this._proxy;
+    }
 
     /************************* PRIVATE *****************************/
 
@@ -167,6 +170,6 @@ export default class VFFProxy {
         return traps;
     }
 }
-module.exports = require('./index').default;
+module.exports = require('./vff-proxy').default;
 
 

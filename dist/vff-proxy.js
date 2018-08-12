@@ -169,6 +169,11 @@ var VFFProxy = function () {
         value: function equals(data) {
             return (0, _helpers.deepCompare)(this._proxy, data);
         }
+    }, {
+        key: 'getData',
+        value: function getData() {
+            return this._proxy;
+        }
 
         /************************* PRIVATE *****************************/
 
