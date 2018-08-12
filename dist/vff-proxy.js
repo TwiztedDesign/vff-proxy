@@ -1,4 +1,14 @@
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define([], factory);
+	else if(typeof exports === 'object')
+		exports["VFFProxy"] = factory();
+	else
+		root["VFFProxy"] = factory();
+})(typeof self !== 'undefined' ? self : this, function() {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -268,6 +278,8 @@ var VFFProxy = function () {
 
 exports.default = VFFProxy;
 
+module.exports = __webpack_require__(0).default;
+
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -531,4 +543,5 @@ module.exports = {
 
 /***/ })
 /******/ ]);
+});
 //# sourceMappingURL=vff-proxy.js.map
