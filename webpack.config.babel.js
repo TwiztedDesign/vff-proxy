@@ -6,7 +6,7 @@ const include = join(__dirname, 'src');
 module.exports =  {
     entry               : './src/index.js',
     output              : {
-        filename        : "vff-ext.js",
+        filename        : "vff-proxy.js",
         path            : join(__dirname, 'dist')
 
     },
