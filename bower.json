@@ -1,0 +1,23 @@
+{
+  "name": "vff-proxy",
+  "description": "",
+  "main": "dist/vff-proxy.js",
+  "authors": [
+    "Danny Umansky <dok.umansky@twizted-design.com> (http://www.twizted-design.com/)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "vff",
+    "broadcast",
+    "graphics"
+  ],
+  "homepage": "https://github.com/TwiztedDesign/vff-proxy",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
