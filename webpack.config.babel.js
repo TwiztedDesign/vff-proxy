@@ -7,8 +7,9 @@ module.exports =  {
     entry               : './src/index.js',
     output              : {
         filename        : "vff-proxy.js",
-        path            : join(__dirname, 'dist')
-
+        path            : join(__dirname, 'dist'),
+        libraryTarget   : 'umd',
+        library         : 'VFFProxy'
     },
     devtool             : 'source-map',
     module              : {

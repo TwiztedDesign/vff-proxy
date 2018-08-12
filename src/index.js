@@ -167,3 +167,6 @@ export default class VFFProxy {
         return traps;
     }
 }
+module.exports = require('./index').default;
+
+
